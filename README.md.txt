@@ -30,16 +30,7 @@ Here below the most relevant features exposed using REST Apis:
 
 #### User management features
 
-* Register a new user account
-* Login with username & password
-* Retrieve a single user account
-* Retrieve the list of all the existing user accounts
-* Update user account data (basic user data, contacts, address)
-* Add or remove a role on an user account
-* Delete a user account
-* Define secured accounts that cannot be deleted but only modified
-* Standard validation for email, phone, password
-
+* Register a new us
 #### RBAC features: manages roles and permissions
 
 * Retrieve all the permissions
@@ -56,55 +47,14 @@ Here below the most relevant features exposed using REST Apis:
 * Api to generate a salt random value to encrypt password (configuration)
 
 ## REST apis exposed
-Using a browser it's possible to interact with the REST apis with Swagger:
+Using a browser it's possible
 
-http://localhost:8090/swagger-ui.html
+kjhsdukby
+g,krgunucj
+toj;v u
 
-![Swagger](https://github.com/andreagiassi/microservice-rbac-user-management/blob/master/src/main/resources/images/swagger.png "Swagger interface")
 
-Another alternative is to using an external tool, for example Postman (https://www.postman.com/).
-
-This project contains also the Postman export file with all the configured test calls:
-
-![Swagger](https://github.com/andreagiassi/microservice-rbac-user-management/blob/master/src/main/resources/images/postman.png "Swagger interface")
-
-## Quick Start
-
-### Setup using Docker containers
->Thanks to Docker it’s easy to create scalable and manageable applications built of microservices.
-
-The project is designed to use two containers:
-* one Java microservice
-* one MySql database
-
-The Docker environment is necessary in order to work with the containers and the setup depends about your Os.
-
-Proceed the setup for the Docker environment: [Get Docker](https://docs.docker.com/get-docker/)
-
-To compile and run the Java project you need to install a Java 8 JDK on your local machine.
-
-Follow the instructions below to setup a local docker image for a mysql8.0 database:
-
-https://medium.com/@crmcmullen/how-to-run-mysql-in-a-docker-container-on-macos-with-persistent-local-data-58b89aec496a
-
-The microservice application has been updated to support a docker dev-network and there are no needs to
- configure manually the IP address of the database target: this setup is necessary only one time.
-
-Create the developer network:
-
-    docker network create dev-network
-
-Check that the network has been defined:
-
-    docker network ls
-
-Modify the file db.cmd and set a folder to use for the MySql's docker volume.
-
-Run the MySql container:
-
-    ./db.cmd
-
-Execute the run bash script to compile and run the microservice container:
+rv lnriuvj  j jt4rjtjainer:
 
     ./run.cmd
 
